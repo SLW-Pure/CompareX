@@ -1,0 +1,190 @@
+/* Genel stil */
+body {
+    font-family: monospace;
+    background-color: #202124;
+    color: #ffffff;
+    margin: 25px;
+    padding: 0;
+}
+
+.light-mode {
+    background-color: #ffffff;
+    color: #000;
+}
+
+.manual-container {
+    background-color: #303136;
+}
+
+.light-mode .manual-container {
+    background-color: #fafafa;
+}
+
+/* Başlık */
+.header {
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #43a8b1;
+}
+
+.mode-toggle {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+/* Metin girişleri */
+.text-inputs {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.input-container {
+    flex: 1;
+}
+
+textarea {
+    width: 100%;
+    height: 300px;
+    resize: none;
+    background-color: #fafafa;
+    color: #000;
+    border: 1px solid #ccc;
+    font-family: monospace;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+}
+
+textarea::placeholder {
+    color: #999;
+}
+
+/* Sonuç alanı */
+.result-area {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.result-output {
+    flex: 1;
+    max-height: 300px;
+    overflow: auto;
+    white-space: pre-wrap;
+    word-break: break-all;
+    padding: 9.5px;
+    font-size: 13px;
+    line-height: 1.428571429;
+    background-color: #f5f5f5;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Satır numarası */
+.line-number {
+    color: #666;
+    margin-right: 10px;
+}
+
+.different-line {
+    background-color: #519b6296;
+}
+
+/* Butonlar */
+.compare-button {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* "Atla Göster" Butonunu Küçültme */
+
+/* Function Button */
+.function-button {
+    padding: 5px 10px;
+    background-color: #43a8b1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+button {
+    padding: 5px 10px;
+    background-color: #43a8b1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+	margin-top:8px;
+}
+
+.warning-message {
+    color: red;
+    text-align: center;
+}
+
+/* Info Butonu */
+.info-button {
+    padding: 5px 10px;
+    background-color: #43a8b1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+/* Modal Stili */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #303136;
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+    color: white;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
