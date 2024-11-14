@@ -29,5 +29,7 @@ Slaweally Compare, iki farklı metni satır satır karşılaştırarak farklıl�
 - Tüm işlemler tarayıcı üzerinde gerçekleştirilir, verileriniz sunucuya gönderilmez ve gizli kalır.
 
 ## Sonuç
-Slaweally Compare, uzun metinler ve dokümanlar arasında hızlı, verimli ve güvenli karşılaştırma yapmanızı sağlar. Özellikle büyük dokümanlarla çalışanlar için farkları bulmak ve düzenlemeleri hızlandırmak amacıyla ideal bir araçtır.
+Slaweally CompareX, uzun metinler ve dokümanlar arasında hızlı, verimli ve güvenli karşılaştırma yapmanızı sağlar. Özellikle büyük dokümanlarla çalışanlar için farkları bulmak ve düzenlemeleri hızlandırmak amacıyla ideal bir araçtır.
+
+Website: https://comparex.rootali.net/
 
